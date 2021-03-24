@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>a2065563-a6b5-4794-8f9e-871b92df91f7</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <OutputType>Exe</OutputType>
+	<PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0" />
+    <PackageReference Include="MicroElements.Swashbuckle.FluentValidation" Version="4.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="Sentry" Version="3.0.5" />
+    <PackageReference Include="Sentry.AspNetCore" Version="3.0.5" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="SQLite.CodeFirst" Version="1.6.1.31" />
+    <PackageReference Include="Swashbuckle" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.1" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.1" />
+    <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.113" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\Models\" />
+  </ItemGroup>
+
+
+</Project>
